@@ -176,7 +176,7 @@ class linkedList
 	
 }
 
-public class j12
+public class singlyLL
 {
 	public static void main(String a[])
 	{
