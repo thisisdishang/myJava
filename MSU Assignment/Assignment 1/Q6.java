@@ -3,22 +3,18 @@ The zero that's used to exit the loop should not be included in the total number
 
 import java.util.*;
 
-class Q6 
-{
-	public static void main(String[] args)
-	{
-		Scanner s=new Scanner(System.in);
-		int count=0,n;
-		while(true)
-		{
+class Q6 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int count = 0, n;
+		while (true) {
 			System.out.println("Give a number : ");
-			n=s.nextInt();
-			if(n==0)
-			{
+			n = s.nextInt();
+			if (n == 0) {
 				break;
 			}
-			count++;		
+			count++;
 		}
-		System.out.println("Total number of numbers: "+count);
+		System.out.println("Total number of numbers: " + count);
 	}
 }

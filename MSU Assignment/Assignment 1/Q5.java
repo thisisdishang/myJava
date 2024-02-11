@@ -3,30 +3,22 @@ If the number is zero, the program exits the loop. If the number is positive, th
 
 import java.util.*;
 
-class Q5 
-{
-	public static void main(String[] args)
-	{
-		Scanner s=new Scanner(System.in);
+class Q5 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
 		int n;
-		while(true)
-		{
+		while (true) {
 			System.out.println("Enter the number : ");
-			n=s.nextInt();
-			if(n<0)
-			{
+			n = s.nextInt();
+			if (n < 0) {
 				System.out.println("Unsuitable number");
 				continue;
-			}
-			else if(n==0)
-			{
+			} else if (n == 0) {
+				break;
+			} else {
+				System.out.println("2 Power of number " + n + " is " + Math.pow(n, 2));
 				break;
 			}
-			else
-			{
-				System.out.println("2 Power of number "+n+" is "+ Math.pow(n,2));
-				break;
-			}			
 		}
 	}
 }

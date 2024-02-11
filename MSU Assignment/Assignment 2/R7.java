@@ -5,18 +5,14 @@ import java.util.*;
 
 class R7 {
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.println("Enter the string:");
-        String str=s.nextLine();
+        String str = s.nextLine();
 
-
-        if(str.equals("true"))
-        {
+        if (str.equals("true")) {
             System.out.println("You got it right!");
-        }
-        else
-        {
+        } else {
             System.out.println("Try again!");
         }
-    }    
+    }
 }

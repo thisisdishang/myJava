@@ -3,21 +3,18 @@ The number zero does not need to be added to the sum, even if it does not change
 
 import java.util.*;
 
-class Q8
-{
-    public static void main(String[] args)
-    {
-        Scanner s=new Scanner(System.in);
-        int num,sum=0;
+class Q8 {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int num, sum = 0;
         while (true) {
             System.out.println("Give a number:");
-            num=s.nextInt();
-            if(num==0)
-            {
+            num = s.nextInt();
+            if (num == 0) {
                 break;
             }
-            sum+=num;
+            sum += num;
         }
-        System.out.println("Sum of numbers is "+sum);
+        System.out.println("Sum of numbers is " + sum);
     }
 }

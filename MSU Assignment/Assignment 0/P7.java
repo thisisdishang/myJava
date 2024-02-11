@@ -3,10 +3,10 @@
 public class P7 {
     public static void main(String[] args) {
         var avg = 30.5;
-        System.out.println(avg);//float type
+        System.out.println(avg);// float type
         var avg2 = 30;
-        System.out.println(avg2);//integer type
+        System.out.println(avg2);// integer type
         var avg3 = true;
-        System.out.println(avg3);//boolean type
+        System.out.println(avg3);// boolean type
     }
 }
