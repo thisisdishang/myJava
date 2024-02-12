@@ -1,4 +1,4 @@
-package OOP;
+package OOP.ClassObject;
 
 class ObjectDemo {
     public static void main(String args[]) {
